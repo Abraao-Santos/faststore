@@ -22,7 +22,7 @@
     "build-storybook": "build-storybook"
   },
   "engines": {
-    "node": ">=14"
+    "node": "16.x"
   },
   "dependencies": {
     "@builder.io/partytown": "^0.5.4",
