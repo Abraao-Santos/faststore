@@ -1,3 +1,4 @@
+
 import { useSession } from '@faststore/sdk'
 import { gql } from '@vtex/graphql-utils'
 import { BreadcrumbJsonLd, NextSeo, ProductJsonLd } from 'next-seo'
