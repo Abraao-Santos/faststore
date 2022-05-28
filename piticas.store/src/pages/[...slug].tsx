@@ -8,7 +8,7 @@ import { BreadcrumbJsonLd, NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import type { SearchState } from '@faststore/sdk'
-import type { GetStaticPaths, GetStaticProps } from 'next'
+import type { GetStaticPaths, GetStaticProps } from 'next'// eslint-disable-line
 import Breadcrumb from 'src/components/sections/Breadcrumb'
 import Hero from 'src/components/sections/Hero'
 import ProductGallery from 'src/components/sections/ProductGallery'

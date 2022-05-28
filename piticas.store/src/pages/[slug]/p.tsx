@@ -1,14 +1,13 @@
-
 import { useSession } from '@faststore/sdk'
 import { gql } from '@vtex/graphql-utils'
 import { BreadcrumbJsonLd, NextSeo, ProductJsonLd } from 'next-seo'
 import { useRouter } from 'next/router'
-import type { GetStaticPaths, GetStaticProps } from 'next'
+import type { GetStaticPaths, GetStaticProps } from 'next'// eslint-disable-line
 import ProductDetails from 'src/components/sections/ProductDetails'
 import ProductShelf from 'src/components/sections/ProductShelf'
 import { ITEMS_PER_SECTION } from 'src/constants'
 import { mark } from 'src/sdk/tests/mark'
-import { execute } from 'src/server'
+import { execute } from 'src/server'// eslint-disable-line
 import type {
   ServerProductPageQueryQuery,
   ServerProductPageQueryQueryVariables,
