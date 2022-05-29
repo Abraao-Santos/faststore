@@ -36,15 +36,16 @@ module.exports = {
 
   // Lighthouse CI
   lighthouse: {
-    collect: {
-      staticDistDir: './.next',
-    },
-    server: process.env.BASE_SITE_URL || 'http://localhost:3000',
+    server:
+      process.env.BASE_SITE_URL ||
+      'https://faststore-8a8ovpnio-abraao-santos.vercel.app' ||
+      'http://localhost:3000',
     pages: {
       home: '/',
       pdp: '/apple-magic-mouse-99988212/p',
       collection: '/office',
     },
+    uploadArtifacts: true,
   },
 
   // E2E CI
