@@ -36,6 +36,9 @@ module.exports = {
 
   // Lighthouse CI
   lighthouse: {
+    collect: {
+      staticDistDir: './.next',
+    },
     server: process.env.BASE_SITE_URL || 'http://localhost:3000',
     pages: {
       home: '/',
