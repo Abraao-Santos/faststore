@@ -15,7 +15,10 @@ jobs:
           yarn install 
       - name: next Build
         run: |
-          yarn build 
+          yarn build
+      - name: next start server
+        run: |
+          yarn serve  
       - name: run Lighthouse CI
         run: |
           yarn lhci
