@@ -43,7 +43,7 @@ module.exports = {
       collection: '/office',
     },
     collect: {
-      startServerCommand: 'yarn serve',
+      staticDistDir: './out',
     },
   },
 
