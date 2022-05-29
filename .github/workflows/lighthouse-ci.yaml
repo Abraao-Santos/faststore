@@ -12,10 +12,7 @@ jobs:
           node-version: 16.x
       - name: npm install
         run: |
-          yarn install
-      - name: next Build
-        run: |
-          yarn Build    
+          yarn install 
       - name: run Lighthouse CI
         run: |
           yarn lhci
