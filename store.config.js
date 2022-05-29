@@ -38,7 +38,7 @@ module.exports = {
   lighthouse: {
     server:
       process.env.BASE_SITE_URL ||
-      'https://vercel.com/abraao-santos/faststore' ||
+      'https://faststore-8a8ovpnio-abraao-santos.vercel.app' ||
       'http://localhost:3000',
     pages: {
       home: '/',
