@@ -45,6 +45,9 @@ module.exports = {
       pdp: '/apple-magic-mouse-99988212/p',
       collection: '/office',
     },
+    collect: {
+      startServerCommand: 'yarn serve',
+    },
   },
 
   // E2E CI
