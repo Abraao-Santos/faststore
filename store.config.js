@@ -36,7 +36,10 @@ module.exports = {
 
   // Lighthouse CI
   lighthouse: {
-    server: process.env.BASE_SITE_URL || 'http://localhost:3000',
+    server:
+      process.env.BASE_SITE_URL ||
+      'https://faststore-eight.vercel.app/' ||
+      'http://localhost:3000',
     pages: {
       home: '/',
       pdp: '/apple-magic-mouse-99988212/p',
