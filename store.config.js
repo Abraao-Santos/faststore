@@ -46,7 +46,7 @@ module.exports = {
       collection: '/office',
     },
     collect: {
-      staticDistDir: './out',
+      staticDistDir: './.next',
     },
   },
 
