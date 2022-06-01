@@ -41,9 +41,10 @@ module.exports = {
       'https://faststore-8a8ovpnio-abraao-santos.vercel.app' ||
       'http://localhost:3000',
     pages: {
-      home: '/',
-      pdp: '/apple-magic-mouse-99988212/p',
-      collection: '/office',
+      // home: '/',
+      // pdp: '/apple-magic-mouse-99988212/p',
+      // collection: '/office',
+      teste: '/teste',
     },
     uploadArtifacts: true,
   },

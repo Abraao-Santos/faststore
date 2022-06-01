@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react'
 import type { PropsWithChildren } from 'react'
+
 import Alert from 'src/components/common/Alert'
 import Footer from 'src/components/common/Footer'
 import Navbar from 'src/components/common/Navbar'
